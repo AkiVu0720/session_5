@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1;
+    line-height: 2;
+    color: white;
+}
+.about{
+    background-color: cadetblue;
+}
+.item h3{
+    margin-bottom: 10px;
+}
+.item li a{
+    color: white;
+    text-decoration: none;
+}
+.about_content{
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    gap: 30px;
+    padding: 10px 0;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.box .fa-brands{
+border: 1px solid blueviolet;
+border-style: none;
+width: 30px;
+height: 30px;
+line-height: 28px;
+text-align: center;
+}
+.box .fa-facebook-f{
+    background-color: mediumorchid;
+}
+.box .fa-google{
+    background-color: olive;
+}
+.box .fa-linkedin-in{
+    background-color: darkslategray;
+}
+.box .fa-twitter{
+    background-color: violet;
+}

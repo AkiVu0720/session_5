@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact{
+    width: 70%;
+    margin: 20px auto;
+    background-color: aqua;
+    padding: 40px;
+}
+textarea{
+    margin: 30px 0 0 0;
+    border: none;
+    width: 100%;
+}
+.from_head{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+.from_head_item input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+}
+.from_head_item{
+    margin: 15px 0;
+}
+.from_footer{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: darkturquoise;
+    padding:10px  20px;
+    border: none;
+    border-radius: 5px;
+}

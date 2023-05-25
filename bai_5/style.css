@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1;
+    line-height: 2;
+}
+input::placeholder, textarea::placeholder{
+padding: 0 10px;
+}
+.login{
+    width: 80%;
+    margin: 0 auto;
+    margin: 20px;
+}
+.login_from{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+.login_from input{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    /* margin: 10px; */
+}
